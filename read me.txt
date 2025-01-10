@@ -1,0 +1,41 @@
+Brain Tumor MRI Classification
+
+I created this project to classify MRI brain scans into two categories: Normal and Tumor. The aim is to provide a tool that could potentially assist in the early detection of brain tumors using machine learning techniques.
+
+
+
+About the Dataset
+
+
+The dataset used for this project contains labeled MRI brain scan images, split into two categories:
+
+Normal: Images without tumors.
+Tumor: Images with visible tumors.
+The dataset was sourced from Kaggle: MRI-Based Brain Tumor Images and was preprocessed to ensure consistency, including resizing and normalization.
+
+
+
+Project Details
+
+
+This project uses a Convolutional Neural Network (CNN) for classification. The network was trained on the labeled dataset and evaluated on a separate test set to measure its performance.
+
+Key Features:
+
+Image Preprocessing: Resizing to 224x224 and normalization.
+Binary Classification: A model built to distinguish between normal and tumor MRI images.
+Performance Evaluation: Includes metrics like accuracy, confusion matrix, and loss visualization.
+
+
+Technologies Used
+
+Python
+TensorFlow/Keras
+NumPy, Matplotlib, and Pandas for data processing and visualization
+
+
+
+Results
+
+
+The model was evaluated using test data, and results were summarized using a confusion matrix and classification metrics.
